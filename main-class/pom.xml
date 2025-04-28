@@ -16,10 +16,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <!-- TODO: This works -->
-            <!-- <version>6.2.4</version>-->
-            <!-- TODO: This provokes the error -->
-             <version>6.2.5</version>
+            <version>6.2.7-SNAPSHOT</version>
         </dependency>
 
         <dependency>
@@ -33,4 +30,13 @@
             <version>5.12.2</version>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>repository.spring.snapshot</id>
+            <name>Spring Snapshot Repository</name>
+            <url>http://repo.spring.io/snapshot</url>
+            <snapshots/>
+        </repository>
+    </repositories>
 </project>
